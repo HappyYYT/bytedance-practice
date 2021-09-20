@@ -1,4 +1,5 @@
-## :triangular_flag_on_post:Day1
+## 字节青训营
+### :triangular_flag_on_post:Day1
 | 时间 | 课程 | 主讲人 |
 |:--:|:--:|:--:|
 | 9:25~12:00 | **Node基础Api与CLI实战** | 全栈然叔 |
