@@ -16,6 +16,8 @@ const spawn = async (...args) => {
     const options = args[args.length - 1];
     if (process.platform === "win32") {
       options.shell = true;
+    } else {
+      console.log('Linux/Unix');
     }
     const proc = spawn(...args);
     // 输出流 子进程 合并到 主进程
