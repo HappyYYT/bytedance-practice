@@ -5,6 +5,7 @@ const clear = require("clear"); // 清屏
 const chalk = require("chalk");
 const log = (content) => console.log(chalk.green(content));
 const { clone } = require("./download");
+const open = require("open");
 
 const spawn = async (...args) => {
   // 同步 Promise API
@@ -58,6 +59,8 @@ module.exports = async (name) => {
   =============================
   `)
   );
+  open("http://localhost:8080");
+  await spawn("npm", ["run", "serve"], { cwd: `${__dirname}/../${name}` });
 };
 
 // kkb init abc
