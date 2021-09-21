@@ -1,4 +1,8 @@
 ## 字节青训营
+
+### 如何使用我的代码？
+> 下载后执行`npm install`
+
 ### :triangular_flag_on_post:Day1
 | 时间 | 课程 | 主讲人 | Demo |
 |:--:|:--:|:--:| :--: |
