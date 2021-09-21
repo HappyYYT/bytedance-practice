@@ -14,7 +14,7 @@
 ### :battery:Day2
 | 时间 | 课程 | 主讲人 | Demo |
 |:--:|:--:|:--:| :--: |
-| 9:00~11:00 | **实现setup koa的cli工具** | [崔效瑞](https://github.com/cuixiaorui) |  |
+| 9:00~11:00 | **实现setup koa的cli工具** | [崔效瑞](https://github.com/cuixiaorui) | [koa-setup](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY02/TEACH-KOA-SETUP) |
 | 11:00~12:00 | **webpack&rollup&vite原理及应用** | [崔效瑞](https://github.com/cuixiaorui) |  |
 | 13:00~14:00 | **webpack&rollup&vite原理及应用** | [崔效瑞](https://github.com/cuixiaorui) |  |
 | 14:00~15:30 | **单元测试 & 组件测试 & e2e & git hook & Puppeteer & eslint** | [崔效瑞](https://github.com/cuixiaorui) |  |
