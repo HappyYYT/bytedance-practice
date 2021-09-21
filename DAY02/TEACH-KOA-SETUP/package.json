@@ -1,0 +1,13 @@
+{
+  "name": "DAY02",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "rm -rf ./haha && node index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6"
+  }
+}
