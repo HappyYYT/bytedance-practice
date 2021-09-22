@@ -20,7 +20,7 @@
 | 14:00~15:30 | **单元测试 & 组件测试 & e2e & git hook & Puppeteer & eslint** | [崔效瑞](https://github.com/cuixiaorui) |  |
 | 15:30~18:00 | **webpack & rollup & esbuild编写插件及原理** | [崔效瑞](https://github.com/cuixiaorui) |  |
 
-### :battery:Day3
+### :bookmark:Day3
 | 时间 | 课程 | 主讲人 | Demo |
 |:--:|:--:|:--:| :--: |
 | 9:00~10:00 | **中后台开发理论课** | [winter]() |  |
