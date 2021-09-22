@@ -1,10 +1,11 @@
 const Koa = require("koa");
 <% if (router) { %>
-  const Router = require("koa-router");
+const Router = require("koa-router");
 <% } %>
-
+<% if (static) { %>
+const serve = require("koa-static");
+<% } %>
 const app = new Koa();
-
 <% if (router) { %>
 const router = new Router();
 router.get("/", (ctx) => {
@@ -12,7 +13,9 @@ router.get("/", (ctx) => {
 });
 app.use(router.routes());
 <% } %>
-
-app.listen(8080, () => {
+<% if (static) { %>
+app.use(serve(__dirname + "/static"));
+<% } %>
+app.listen(<%= port %>, () => {
   console.log("open server localhost:8080");
 });

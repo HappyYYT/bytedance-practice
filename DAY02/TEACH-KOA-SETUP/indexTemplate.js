@@ -6,12 +6,14 @@ export function createIndexTemple(config) {
   const template = fs.readFileSync("./template/index.ejs", "utf-8");
 
   const code = ejs.render(template, {
-      router: config.middleware.router,    
+    port: config.port,
+    router: config.middleware.router,
+    static: config.middleware.static,
   });
   console.log(code);
 
   return code;
-  
+
   return `
     const Koa = require("koa");
 

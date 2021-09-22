@@ -1,0 +1,23 @@
+{
+    "name": "<%= packageName %>",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "koa": "^2.13.1"
+      <% if (router) { %>
+        ,"koa-router": "^10.1.1"
+      <% } %>
+      <% if (static) { %>
+        ,"koa-static": "^5.0.0"
+      <% } %>
+    }
+}
+  
