@@ -19,3 +19,13 @@
 | 13:00~14:00 | **webpack&rollup&vite原理及应用** | [崔效瑞](https://github.com/cuixiaorui) |  |
 | 14:00~15:30 | **单元测试 & 组件测试 & e2e & git hook & Puppeteer & eslint** | [崔效瑞](https://github.com/cuixiaorui) |  |
 | 15:30~18:00 | **webpack & rollup & esbuild编写插件及原理** | [崔效瑞](https://github.com/cuixiaorui) |  |
+
+### :battery:Day3
+| 时间 | 课程 | 主讲人 | Demo |
+|:--:|:--:|:--:| :--: |
+| 9:00~10:00 | **中后台开发理论课** | [winter]() |  |
+| 10:00~12:00 | **体验使用AntD来完成一个中后台页面** | [winter]() |  |
+| 13:00~14:00 | **组件体系的设计** | [winter]() |  |
+| 14:00~15:00 | **组件体系的设计练习** | [winter]() |  |
+| 15:00~16:00 | **中后台搭建系统** | [winter]() |  |
+| 16:00~17:00 | **中后台搭建系统练习** | [winter]() |  |
