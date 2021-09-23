@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 1 -->
+    <!-- viewport 移动端特有的设置，解决移动端屏幕过小，放不下正常网页的问题 -->
+    <!-- width=device-width:定义视口的宽度，单位为像素 -->
+    <!-- initial-scale定义初始缩放值 -->
+    <!-- <meta name="viewport" content="width=400"/> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- 当不设置 viewprt时，视口大小默认为980 -->
+    <title>Document</title>
+    <style>
+      #box {
+        width: 100px;
+        height: 100px;
+        background: red;
+      }
+    </style>
+    <script>
+      console.log(window.devicePixelRatio); //像素比
+      //   2
+      // 比如现在手机追求的是高清屏，就是在更小的尺寸中可以展示更多的像素值，这样显示出来的东西就会比较清晰
+      // 那么什么是像素比呢？1px的内容，放大到 devicePixelRatio px 显示
+      // MDN的解释是-返回当前显示设备的物理像素分辨率与CSS像素分辨率之比。
+      // 物理像素：（设备像素，device pixels）
+      // css像素：（css pixels）
+      // 简单来说，它告诉浏览器应使用多少屏幕实际像素来绘制单个CSS像素。
+      // 有时你设置100px但实际上显示器显示的是125px
+      // 怎么解决了，淘宝的一个解决方案是用js动态设置，而不是meta name="viewport"...
+      (function () {
+        // 创建这样的元素
+        // <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        const metaEl = document.createElement("meta");
+        // 获取现在的像素比
+        const scale = devicePixelRatio;
+        metaEl.setAttribute("name", "viewport");
+        metaEl.setAttribute(
+          "content",
+          "initial-scale=" +
+            1 / scale +
+            ", maximum-scale=" +
+            1 / scale +
+            ", minimum-scale=" +
+            1 / scale +
+            ", user-scalable=no"
+        );
+        document.documentElement.firstElementChild.appendChild(metaEl);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="box"></div>
+  </body>
+</html>
