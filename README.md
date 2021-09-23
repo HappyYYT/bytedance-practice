@@ -23,21 +23,31 @@
 ### :bookmark:Day3
 | 时间 | 课程 | 主讲人 | Demo |
 |:--:|:--:|:--:| :--: |
-| 9:00~10:00 | **中后台开发理论课** | winter |  |
-| 10:00~12:00 | **体验使用AntD来完成一个中后台页面** | winter | [AntD x React](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY03/react-app) |
-| 13:00~14:00 | **组件体系的设计** | winter |  |
-| 14:00~15:00 | **组件体系的设计练习** | winter |  |
-| 15:00~16:00 | **中后台搭建系统** | winter |  |
-| 16:00~17:00 | **中后台搭建系统练习** | winter |  |
+| 9:00~10:00 | **中后台开发理论课** | [winter](https://github.com/wintercn) |  |
+| 10:00~12:00 | **体验使用AntD来完成一个中后台页面** | [winter](https://github.com/wintercn) | [AntD x React](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY03/react-app) |
+| 13:00~14:00 | **组件体系的设计** | [winter](https://github.com/wintercn) |  |
+| 14:00~15:00 | **组件体系的设计练习** | [winter](https://github.com/wintercn) |  |
+| 15:00~16:00 | **中后台搭建系统** | [winter](https://github.com/wintercn) |  |
+| 16:00~17:00 | **中后台搭建系统练习** | [winter](https://github.com/wintercn) |  |
 
 ### :iphone:Day4
 | 时间 | 课程 | 主讲人 | Demo |
 |:--:|:--:|:--:| :--: |
-| 9:00~10:00 | **移动端适配** | MT |  |
-| 10:00~11:00 | **移动端事件** | MT |  |
-| 11:00~12:00 | **手势库封装** | MT |  |
+| 9:00~10:00 | **移动端适配** | [MT](https://github.com/motao314) | [移动端适配](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY04/1_mobile-adapter) |
+| 10:00~11:00 | **移动端事件** | [MT](https://github.com/motao314) | [移动端事件](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY04/2_mobile-event) |
+| 11:00~12:00 | **手势库封装** | [MT](https://github.com/motao314) |  |
 | 13:00~14:00 | **移动端轮播图实战** | 大帅老猿 |  |
 | 14:00~15:00 | **协作工具，吸顶，swiper** | 大帅老猿 |  |
 | 15:00~16:00 | **浏览进度，无限列表** | 大帅老猿 |  |
 | 16:00~17:00 | **mediaquery** | 大帅老猿 |  |
 | 17:00~18:00 | **练习** | 大帅老猿 |  |
+
+### :part_alternation_mark:Day5
+| 时间 | 课程 | 主讲人 | Demo |
+|:--:|:--:|:--:| :--: |
+| 9:00~12:00 | **1.框架设计理念 2.mini-vue：初始化和响应式** | 杨村长 |  |
+| 13:00~14:00 | **mini-vue：更新** | 杨村长 |  |
+| 14:00~15:00 | **SFC原理解析** | 杨村长 |  |
+| 15:00~16:00 | **JSX原理解析** | 杨村长 |  |
+| 16:00~17:00 | **组件化开发实践** | 杨村长 |  |
+| 17:00~18:00 | **MVVM** | 杨村长 |  |
