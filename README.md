@@ -36,18 +36,18 @@
 | 9:00~10:00 | **移动端适配** | [MT](https://github.com/motao314) | [移动端适配](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY04/1_mobile-adapter) |
 | 10:00~11:00 | **移动端事件** | [MT](https://github.com/motao314) | [移动端事件](https://github.com/HappyYYT/bytedance-practice/tree/main/DAY04/2_mobile-event) |
 | 11:00~12:00 | **手势库封装** | [MT](https://github.com/motao314) |  |
-| 13:00~14:00 | **移动端轮播图实战** | 大帅老猿 |  |
-| 14:00~15:00 | **协作工具，吸顶，swiper** | 大帅老猿 |  |
-| 15:00~16:00 | **浏览进度，无限列表** | 大帅老猿 |  |
-| 16:00~17:00 | **mediaquery** | 大帅老猿 |  |
-| 17:00~18:00 | **练习** | 大帅老猿 |  |
+| 13:00~14:00 | **移动端轮播图实战** | [大帅老猿](https://github.com/ezshine) |  |
+| 14:00~15:00 | **协作工具，吸顶，swiper** | [大帅老猿](https://github.com/ezshine) |  |
+| 15:00~16:00 | **浏览进度，无限列表** | [大帅老猿](https://github.com/ezshine) |  |
+| 16:00~17:00 | **mediaquery** | [大帅老猿](https://github.com/ezshine) |  |
+| 17:00~18:00 | **练习** | [大帅老猿](https://github.com/ezshine) |  |
 
 ### :part_alternation_mark:Day5
 | 时间 | 课程 | 主讲人 | Demo |
 |:--:|:--:|:--:| :--: |
-| 9:00~12:00 | **1.框架设计理念 2.mini-vue：初始化和响应式** | 杨村长 |  |
-| 13:00~14:00 | **mini-vue：更新** | 杨村长 |  |
-| 14:00~15:00 | **SFC原理解析** | 杨村长 |  |
-| 15:00~16:00 | **JSX原理解析** | 杨村长 |  |
-| 16:00~17:00 | **组件化开发实践** | 杨村长 |  |
-| 17:00~18:00 | **MVVM** | 杨村长 |  |
+| 9:00~12:00 | **1.框架设计理念 2.mini-vue：初始化和响应式** | [杨村长](https://github.com/57code) |  |
+| 13:00~14:00 | **mini-vue：更新** | [杨村长](https://github.com/57code) |  |
+| 14:00~15:00 | **SFC原理解析** | [杨村长](https://github.com/57code) |  |
+| 15:00~16:00 | **JSX原理解析** | [杨村长](https://github.com/57code) |  |
+| 16:00~17:00 | **组件化开发实践** | [杨村长](https://github.com/57code) |  |
+| 17:00~18:00 | **MVVM** | [杨村长](https://github.com/57code) |  |
